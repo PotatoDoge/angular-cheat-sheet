@@ -1,0 +1,32 @@
+.container{
+    margin-top: 10px;
+}
+
+hr{
+    border-top: 1px solid #2b2929;
+}
+
+#c1{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1{
+    text-align: center;
+}
+
+#ang_link{
+    color: black;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gif_div{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
