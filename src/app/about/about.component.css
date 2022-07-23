@@ -1,62 +1,68 @@
-.container{
-    margin-top: 10px;
+
+.container {
+  margin-top: 10px;
 }
 
-hr{
-    border-top: 1px solid #2b2929;
+.about{
+  background-color: black;
 }
 
-#c1{
-    text-align: justify;
-    text-justify: inter-word;
+hr {
+  border-top: 1px solid #2b2929;
 }
 
-h1{
-    text-align: center;
+#c1 {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-#ang_link{
-    color: black;
+h1 {
+  text-align: center;
 }
 
-#logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#ang_link {
+  color: black;
 }
 
-#gif_div{
-    align-items: center;
-    text-align: center;
-    margin-top: 40px;
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-  
-.bg {
-    animation:slide 30s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-    bottom:0;
-    left:-50%;
-    opacity:.5;
-    position:fixed;
-    right:-50%;
-    top:0;
-    z-index:-1;
+
+#gif_div {
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bg1 {
+  position:fixed;
+  animation: slide 30s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: .5;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+}
+
+.bg3 {
+  animation-duration: 30s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
   }
-  
-  .bg2 {
-    animation-direction:alternate-reverse;
-    animation-duration:30s;
+
+  100% {
+    transform: translateX(25%);
   }
-  
-  .bg3 {
-    animation-duration:30s;
-  }
-  
-  @keyframes slide {
-    0% {
-      transform:translateX(-25%);
-    }
-    100% {
-      transform:translateX(25%);
-    }
-  }
+}
