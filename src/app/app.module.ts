@@ -6,13 +6,15 @@ import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BasicsComponent } from './basics/basics.component';
+import { DivisionComponent } from './division/division.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     FooterComponent,
-    BasicsComponent
+    BasicsComponent,
+    DivisionComponent
   ],
   imports: [
     BrowserModule,
