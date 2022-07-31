@@ -1,0 +1,50 @@
+.init-prj {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#c1 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.terminal {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 6px;
+    padding-top: 45px;
+    padding-left: 20px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 16);
+}
+
+.terminal::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(58, 58, 58);
+    color: #c2c3c4;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 14px 0;
+    text-indent: 4px;
+}
+
+li:hover{
+    color: gray;
+    transition-duration: 0.3s;
+}

@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BasicsComponent } from './basics/basics.component';
 import { DivisionComponent } from './division/division.component';
+import { InitProjectComponent } from './init-project/init-project.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DivisionComponent } from './division/division.component';
     AboutComponent,
     FooterComponent,
     BasicsComponent,
-    DivisionComponent
+    DivisionComponent,
+    InitProjectComponent,
   ],
   imports: [
     BrowserModule,

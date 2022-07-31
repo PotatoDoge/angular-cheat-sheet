@@ -1,0 +1,51 @@
+<div class="init-prj">
+    <div class="container">
+        <div class="row" style="margin-top: 10px;">
+            <h2 style="text-align:center;">Setting up an Angular project</h2>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-xs-6" id="c1">
+                <p>In order to create properly a new Angular project, there are some steps to be followed. In the
+                    following list you can follow step by step how to create an Angular project. If you click on any
+                    item on the list, the console next to it updates in order to display the correct command for that
+                    step.
+                </p>
+                <br>
+            </div>
+            <div class="col-xs-6">
+                <ol>
+                    <a href="#!" (click)="cliValue='node'" id="step">
+                        <li>Install Node.js</li>
+                    </a>
+                    <br>
+                    <a href="#!" (click)="cliValue='npm'" id="step">
+                        <li>Install npm</li>
+                    </a>
+                    <br>
+                    <a href="#!" (click)="cliValue='cli'" id="step">
+                        <li>Install the Angular command-line interface (Angular
+                            CLI)</li>
+                    </a>
+                    <br>
+                    <a href="#!" (click)="cliValue='angular'" id="step">
+                        <li>Create a new app</li>
+                    </a>
+                    <br>
+                </ol>
+            </div>
+        </div>
+        <div class="row" id="t_div">
+            <div class="col-xs-12" style="display:flex; justify-content:center;">
+                <div class="terminal">
+                    <p style="color: green;">{{ cliValue }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-division></app-division>
+</div>
+
+<!--
+    VE LA MANERA DE CENTRAR LA TERMINAL PARA DESPUÉS CONTINUAR
+-->
